@@ -1,8 +1,0 @@
-CREATE PROCEDURE DebtsByYear AS
-BEGIN
-	SELECT *
-	FROM
-		vDebtsByYear
-	ORDER BY
-		Year DESC
-END;
